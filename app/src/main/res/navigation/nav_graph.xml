@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/balancedParenthesesFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -12,5 +12,10 @@
         tools:layout="@layout/fragment_first">
 
     </fragment>
+
+    <fragment
+        android:id="@+id/balancedParenthesesFragment"
+        android:name="com.orivas.algorithm.balanced_parentheses.ui.BalancedParenthesesFragment"
+        android:label="BalancedParenthesesFragment" />
 
 </navigation>
