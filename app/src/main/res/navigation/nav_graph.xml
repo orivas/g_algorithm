@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/balancedParenthesesFragment">
+    app:startDestination="@id/ticTacToeFragment">
 
     <fragment
         android:id="@+id/FirstFragment"
@@ -17,5 +17,11 @@
         android:id="@+id/balancedParenthesesFragment"
         android:name="com.orivas.algorithm.balanced_parentheses.ui.BalancedParenthesesFragment"
         android:label="BalancedParenthesesFragment" />
+
+    <fragment
+        android:id="@+id/ticTacToeFragment"
+        android:name="com.orivas.algorithm.tic_tac_toe.TicTacToeFragment"
+        android:label="fragment_tic_tac_toe"
+        tools:layout="@layout/fragment_tic_tac_toe" />
 
 </navigation>
